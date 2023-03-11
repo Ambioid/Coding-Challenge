@@ -707,8 +707,9 @@ for i in raw:
             except:
                 pass
 
-print("")
+
 for y in range(len(board)):
+    print("")
     for x in range(len(board[0])):
         if board[y][x] == -1:
             print("█", end="")
